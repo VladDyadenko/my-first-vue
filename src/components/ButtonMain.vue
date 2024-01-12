@@ -1,5 +1,5 @@
 <template>
-  <button class="btn btn--outlined" v-bind:type="type">
+  <button :class="{ btn, 'btn--outlined': outlined }" v-bind:type="type">
     {{ btnName }}
   </button>
 </template>
@@ -15,6 +15,10 @@ export default {
     btnName: {
       type: String,
       requered: true,
+    },
+    outlined: {
+      type: Boolean,
+      default: false,
     },
   },
   data() {

@@ -1,8 +1,8 @@
 <template>
   <h1>{{ title }}</h1>
-  <ButtonMain btnName="increment" @click="increment" />
+  <ButtonMain outlined="true" btnName="increment" @click="increment" />
   <ButtonMain btnName="decrement" @click="decrement" />
-  <ButtonMain btnName="reset" @click="reset" />
+  <ButtonMain outlined="true" btnName="reset" @click="reset" />
 </template>
 
 <script>
