@@ -1,16 +1,15 @@
 <template>
   <h1>{{ title }}</h1>
-  <ButtonMain outlined="true" btnName="increment" @click="increment" />
-  <ButtonMain btnName="decrement" @click="decrement" />
-  <ButtonMain outlined="true" btnName="reset" @click="reset" />
+  <StarRating :rating="4.5" />
 </template>
 
 <script>
-import ButtonMain from "./components/ButtonMain.vue";
+import StarRating from "./components/StarRating.vue";
+
 export default {
   name: "App",
   components: {
-    ButtonMain,
+    StarRating,
   },
   data() {
     return {
@@ -22,17 +21,7 @@ export default {
       return `Amount of click: ${this.emountClick}`;
     },
   },
-  methods: {
-    increment() {
-      return (this.emountClick += 1);
-    },
-    decrement() {
-      return (this.emountClick -= 1);
-    },
-    reset() {
-      return (this.emountClick = 0);
-    },
-  },
+  methods: {},
 };
 </script>
 

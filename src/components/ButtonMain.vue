@@ -1,6 +1,6 @@
 <template>
-  <button :class="{ btn, 'btn--outlined': outlined }" v-bind:type="type">
-    {{ btnName }}
+  <button :class="{ btn: true, 'btn--outlined': outlined }" v-bind:type="type">
+    <slot></slot>
   </button>
 </template>
 
@@ -14,17 +14,11 @@ export default {
     },
     btnName: {
       type: String,
-      requered: true,
     },
     outlined: {
       type: Boolean,
       default: false,
     },
-  },
-  data() {
-    return {
-      message: "Hello, Vue App!",
-    };
   },
   methods: {},
 };
