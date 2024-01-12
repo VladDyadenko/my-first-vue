@@ -1,17 +1,39 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>{{ title }}</h1>
+  <ButtonMain btnName="increment" @click="increment" />
+  <ButtonMain btnName="decrement" @click="decrement" />
+  <ButtonMain btnName="reset" @click="reset" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import ButtonMain from "./components/ButtonMain.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    ButtonMain,
+  },
+  data() {
+    return {
+      emountClick: 0,
+    };
+  },
+  computed: {
+    title() {
+      return `Amount of click: ${this.emountClick}`;
+    },
+  },
+  methods: {
+    increment() {
+      return (this.emountClick += 1);
+    },
+    decrement() {
+      return (this.emountClick -= 1);
+    },
+    reset() {
+      return (this.emountClick = 0);
+    },
+  },
+};
 </script>
 
 <style>
