@@ -49,7 +49,7 @@ export default {
   }
   &__content {
     position: relative;
-    padding: 0 20px;
+    padding: 10px 20px;
     opacity: 0;
     transition: opacity 0.4s;
     background: rgba(#0f1d2d, 0.7);
@@ -66,12 +66,13 @@ export default {
   }
 
   &__description {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     max-height: calc(1em * 1.4 * 3);
-    padding: 10px;
+    overflow: hidden;
+    /* padding: 10px; */
   }
   &__rating {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   &__price {
