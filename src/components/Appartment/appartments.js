@@ -6,7 +6,7 @@ export default [
     price: 15400,
     rating: 4.8,
     location: {
-      city: "Brovary",
+      city: "Бровари",
     },
     imgUrl: "/img/appartments/Rectangle 43.jpg",
     owner: {
@@ -22,7 +22,7 @@ export default [
     price: 1500,
     rating: 4.2,
     location: {
-      city: "Brovary",
+      city: "Київ",
     },
     imgUrl: "/img/appartments/Rectangle 42.jpg",
     owner: {
@@ -38,7 +38,7 @@ export default [
     price: 1204,
     rating: 4.8,
     location: {
-      city: "Brovary",
+      city: "Бровари",
     },
     imgUrl: "/img/appartments/Rectangle 44.jpg",
     owner: {
@@ -54,7 +54,7 @@ export default [
     price: 8000,
     rating: 4.0,
     location: {
-      city: "Brovary",
+      city: "Шостка",
     },
     imgUrl: "/img/appartments/Rectangle 45.jpg",
     owner: {
@@ -70,7 +70,7 @@ export default [
     price: 10250,
     rating: 5.0,
     location: {
-      city: "Brovary",
+      city: "Рівне",
     },
     imgUrl: "/img/appartments/Rectangle 46.jpg",
     owner: {
@@ -86,7 +86,7 @@ export default [
     price: 1000,
     rating: 3.0,
     location: {
-      city: "Brovary",
+      city: "Київ",
     },
     imgUrl: "/img/appartments/Rectangle 47.jpg",
     owner: {
@@ -102,7 +102,7 @@ export default [
     price: 12400,
     rating: 4.6,
     location: {
-      city: "Brovary",
+      city: "Вінниця",
     },
     imgUrl: "/img/appartments/Rectangle 48.jpg",
     owner: {
@@ -118,7 +118,7 @@ export default [
     price: 12700,
     rating: 4.9,
     location: {
-      city: "Brovary",
+      city: "Одеса",
     },
     imgUrl: "/img/appartments/Rectangle 49.jpg",
     owner: {
@@ -134,7 +134,7 @@ export default [
     price: 15090,
     rating: 4.1,
     location: {
-      city: "Brovary",
+      city: "Тернопіль",
     },
     imgUrl: "/img/appartments/Rectangle 50.jpg",
     owner: {

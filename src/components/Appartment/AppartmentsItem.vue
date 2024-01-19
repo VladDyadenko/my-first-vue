@@ -35,6 +35,7 @@ export default {
     },
     imgSrc: { type: String, default: "" },
   },
+  methods: {},
 };
 </script>
 
@@ -42,7 +43,6 @@ export default {
 .appartments-item {
   position: relative;
   max-width: 350px;
-  padding: 0 15px;
 
   &__inner {
     position: relative;
